@@ -1,5 +1,5 @@
 <suite name="pal" verbose="3">
-  <test name="Random Generator Test">
+  <test name="palindromes test">
     <classes>
       <class name="palindromes.test.PalTest">
         <methods>
