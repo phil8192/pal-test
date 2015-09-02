@@ -1,0 +1,13 @@
+<suite name="pal" verbose="3">
+  <test name="Random Generator Test">
+    <classes>
+      <class name="palindromes.test.PalTest">
+        <methods>
+          <include name="testPalendrome()"/>
+          <include name="testTop3()"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
+
