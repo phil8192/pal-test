@@ -24,7 +24,6 @@ public final class PalTest {
 
   @Test
   public void testTop3() {
-
     Candidate[] ca = p.getTopNpalindromes(null, 3);
     assertNotNull(ca);
     assertEquals(ca.length, 0);
@@ -72,8 +71,6 @@ public final class PalTest {
     assertEquals(ca[2].getString(), "b");
     assertEquals(ca[2].getIndex(), 1);
     assertEquals(ca[2].getLength(), 1);
-
   }
-
 }
  
